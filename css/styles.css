@@ -47,7 +47,7 @@ a {
 .hiro-subtitle {
 font-weight: 700;
 font-size: 56px;
-line-height: 1.07143;
+line-height: 1.07;
 letter-spacing: 0.02em;
 text-align: center;
 color: #fff;
@@ -93,6 +93,14 @@ color: #fff;
 .team {
    background: #f4f4fd;
 }
+.team-subtitle1 {
+font-weight: 700;
+font-size: 36px;
+line-height: 1.11;
+letter-spacing: 0.02em;
+text-align: center;
+color: #2e2f42;
+}
 .team-avatar {
 width: 264px;
 height: 260px;  
@@ -121,6 +129,14 @@ color: var(--slate);
 .Portfolio-item {
     background: #fff;
 }
+.Portfolio-subtitle1{
+font-weight: 700;
+font-size: 36px;
+line-height: 1.11;
+letter-spacing: 0.02em;
+text-align: center;
+color: #2e2f42;
+}
 .Portfolio-product-image {
 width: 360px;
 height: 300px;
@@ -147,8 +163,8 @@ background: url("path_to_image");
     background: #2e2f42;
 }
 .footer-logo {
-width: 115px;
-height: 24px;
+    width: 115px;
+    height: 24px;
 }
 .footer-item-text {
     font-weight: 400;
