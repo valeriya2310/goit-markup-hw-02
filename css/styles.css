@@ -35,6 +35,12 @@ color:  #4d5ae5;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2e2f42;
+} 
+.header-menu-link:hover {
+    color: #404bbf;
+}
+.header-menu-link:focus {
+    color: #404bbf;
 }
 .header-contacts-link {
     font-family: "Roboto", sans-serif;
@@ -44,6 +50,10 @@ color:  #4d5ae5;
     letter-spacing: 0.02em;
     color: #434455;
 }
+.header-contacts-link:hover {
+    color: #404bbf;
+}
+
 /*------------------------------------header-----------------------------------*/
 .hiro {
     background: #2e2f42;
@@ -57,22 +67,19 @@ text-align: center;
 color: #fff;
 }
  .hiro-btn {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
-    text-align: center;
-    color: #fff;
+border-radius: 4px;
+padding: 16px 32px;
+width: 169px;
+height: 56px;
+box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+background: #4d5ae5;
+color: #fff;
     
 }
-.hiro-btn {
-    border-radius: 4px;
-    padding: 16px 32px;
-    width: 169px;
-    height: 56px;
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-    background: #4d5ae5;
-}
+.hiro-btn:hover{
+    background: #404bbf;
+    color: #fff;
+}   
 /*----------------------------------hiro-------------------------------------*/
 
 .features-item {
@@ -95,7 +102,7 @@ color: #fff;
 }
 /*--------------------------------------features-------------------------------------*/
 .team {
-   background:  #FFFFFF ;
+   background:  #f4f4fd; 
 }
 .team-subtitle1 {
 font-weight: 700;
