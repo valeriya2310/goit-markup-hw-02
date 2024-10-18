@@ -44,6 +44,7 @@ color:  #4d5ae5;
 }
 .header-address {
     font-style: none;
+    font-style: normal 
 }
 .header-contacts-link {
     font-weight: 400;
@@ -77,14 +78,16 @@ color: #fff;
     line-height: 1.5;
     letter-spacing: 0.04em;
     cursor: pointer;
+    background-color:  #4d5ae5;
     color: #fff;
     
 }
 .hiro-btn:hover{
-    background: #404bbf;
+    background:  #4D5AE5;
     color: #fff;
 }   
 .hiro-btn:focus {
+    background-color: #404BBF;
     color: #fff;
 }
 /*----------------------------------hiro-------------------------------------*/
@@ -143,10 +146,10 @@ background: url("path_to_image");
 }
 /*---------------------------------------team------------------------------------*/
 
-.Portfolio-item {
+.portfolio-item {
     background: #fff;
 }
-.Portfolio-subtitle1{
+.portfolio-subtitle-portfolio{
 font-weight: 700;
 font-size: 36px;
 line-height: 1.11;
@@ -155,17 +158,17 @@ text-transform: capitalize;
 text-align: center;
 color: #2e2f42;
 }
-.Portfolio-product-image {
+.portfolio-product-image {
 background: url("path_to_image");
 }
-.Portfolio-subtitle {
+.portfolio-subtitle {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
 }
-.Portfolio-item-text {
+.portfolio-item-text {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
