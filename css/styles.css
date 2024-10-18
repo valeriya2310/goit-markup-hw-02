@@ -11,9 +11,13 @@ a {
 /*----------------------------------------header----------------------------------------*/
 
 .header-logo {
-    padding: 5px 0px;
-    width: 115px;
-    height: 24px;
+font-family: "Raleway", sans-serif;
+font-weight: 700;
+font-size: 18px;
+line-height: 1.16;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #2e2f42;
 }
 .header-logo-Roman {
     font-family: var(--second-family);
@@ -163,8 +167,13 @@ background: url("path_to_image");
     background: #2e2f42;
 }
 .footer-logo {
-    width: 115px;
-    height: 24px;
+font-family: "Raleway", sans-serif;
+font-weight: 700;
+font-size: 18px;
+line-height: 1.16;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #f4f4fd;
 }
 .footer-item-text {
     font-weight: 400;
