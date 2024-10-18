@@ -14,35 +14,35 @@ a {
 font-family: "Raleway", sans-serif;
 font-weight: 700;
 font-size: 18px;
-line-height: 1.16;
+line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
-color: #2e2f42;
+color:  #4d5ae5;
 }
 .header-logo-Roman {
-    font-family: var(--second-family);
+    font-family: "Raleway", sans-serif;;
     font-weight: 700;
     font-size: 18px;
     line-height: 117%;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: var(--navy-blue);
+    color: #2e2f42;;
 }
 .header-menu-link {
-   font-family: var(--font-family);
-   font-weight: 500;
-   font-size: 16px;
-   line-height: 150%;
-   letter-spacing: 0.02em;
-   color: var(--navy-blue);
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
 }
 .header-contacts-link {
-    font-family: var(--font-family);
+    font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-size: 16px;
-    line-height: 150%;
+    line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--slate);  
+    color: #434455;
 }
 /*------------------------------------header-----------------------------------*/
 .hiro {
@@ -95,7 +95,7 @@ color: #fff;
 }
 /*--------------------------------------features-------------------------------------*/
 .team {
-   background: #f4f4fd;
+   background:  #FFFFFF ;
 }
 .team-subtitle1 {
 font-weight: 700;
@@ -111,22 +111,22 @@ height: 260px;
 background: url("path_to_image"); 
 }
 .team-subtitle {
-font-family: var(--font-family);
-font-weight: 500;
-font-size: 20px;
-line-height: 120%;
-letter-spacing: 0.02em;
-text-align: center;
-color: var(--navy-blue);
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
 }
 .team-item-text {
-font-family: var(--font-family);
-font-weight: 400;
-font-size: 16px;
-line-height: 150%;
-letter-spacing: 0.02em;
-text-align: center;
-color: var(--slate);
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #434455;
 }
 /*---------------------------------------team------------------------------------*/
 
@@ -170,10 +170,10 @@ background: url("path_to_image");
 font-family: "Raleway", sans-serif;
 font-weight: 700;
 font-size: 18px;
-line-height: 1.16;
+line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
-color: #f4f4fd;
+color:  #4d5ae5;
 }
 .footer-item-text {
     font-weight: 400;
